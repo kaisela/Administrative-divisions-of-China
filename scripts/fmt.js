@@ -25,7 +25,7 @@ const streets = require(path.resolve(__dirname, '../dist/streets.json'))
   out('pcas', pcas)
   out('pcas-code', pcasC)
 
-  console.log('[4/5] 正在导出 “省份、城市、区县、乡镇” 四级联动数据，并作为单独文件...该步骤操作数据较多，比较耗时，请耐心等候...')
+  console.log('[4/5] 正在导出 “各省，各市，各县” json文件数据...该步骤操作数据较多，比较耗时，请耐心等候...')
   const code = getAddressCode(provinces, cities, areas, streets)
   // out('pcas', pcas)
   // out('pcas-code', pcasC)
